@@ -7,7 +7,7 @@
 // @copyright        2022, NotJ3st3r (https://github.com/NotJ3st3r)
 // @license          MIT
 // @include          https://www.imdb.com/*
-// @version          1.1
+// @version          1.2
 // @grant            none
 // ==/UserScript==
 
@@ -23,8 +23,8 @@
       
         div.style.display = "grid";
         div.style.position = "fixed";
-        div.style.left = "1%";
-        div.style.top = "6%";
+        div.style.left = "1rem";
+        div.style.top = "calc(48px + 1rem)";
         div.style.zIndex = '9999';
         //div.innerHTML.style.width = "4rem";
 
